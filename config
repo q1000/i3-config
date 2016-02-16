@@ -13,11 +13,11 @@ for_window [class="^.*"] border pixel 1
 exec feh --bg-fill /home/noah/.i3/Background.jpg
 
 # Window colors
-# class                 border  backgr. text    indicator
-client.focused          #854442 #854442 #be9b7b #854442  
-client.unfocused        #4b3832 #4b3832 #be9b7b #4b3832
-client.focused_inactive #4b3832 #4b3832 #be9b7b #4b3832
-client.urgent           #be9b7b #be9b7b #be9b7b #be9b7b
+# class                  border  backgr. text    indicator
+#client.focused          #       #       #       #        
+#client.unfocused        #       #       #       #      
+#client.focused_inactive #       #       #       #      
+#client.urgent           #       #       #       #      
 
 # Gaps
 gaps inner 10
@@ -148,13 +148,13 @@ bindsym $mod+r mode "resize"
 bar {
         position top  
 	colors{
-	    background #3c2f2f
-	    statusline #be9b7b
+	    background #      
+	    statusline #      
 
-	    focused_workspace  #854442 #854442 #be9b7b
-	    active_workspace   #4b3832 #4b3832 #be9b7b
-	    inactive_workspace #4b3832 #4b3832 #be9b7b
-	    urgent_workspace   #be9b7b #be9b7b #be9b7b
+	    focused_workspace  #       #       #      
+	    active_workspace   #       #       #      
+	    inactive_workspace #       #       #      
+	    urgent_workspace   #       #       #      
     }
 }
 
